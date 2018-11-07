@@ -1,0 +1,161 @@
+/*general styles*/
+
+body {
+  /*background color*/
+  background-color: #333333;
+}
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+#logo {
+  background-color: #000000;
+  float: right;
+  max-width: 70%;
+  margin: 0;
+  border-width: 0;
+  height: 60px;
+  padding: 0;
+}
+
+#logo img {
+  margin: 15px 2px;
+  width: 100%;
+}
+
+.welcome {
+  /*welcome class 1st line in paragraph*/
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+#wrapper {
+  /*black box wrapper*/
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  border-width: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  /*middle paragraphs*/
+  font-size: 20px;
+  padding: 0px 35px;
+  text-align: center;
+  text-indent: 1em;
+  color: white;
+}
+
+/*Header Nav Styles*/
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    font-family: sans-serif;}
+
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 88%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Footer Styles*/
+
+footer a {
+  /*footer styles*/
+  font-size: 10px;
+  padding: 12px 10px;
+  color: white;
+}
+footer a:hover {
+    color: red;
+}
+
+/*table stles*/
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 400px;
+  background-color: #000000;
+  color: white;
+}
+
+table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #666666;
+  color: white;
+}
+
+#resume {
+  color: #000000;
+  background-color: white;
+  width: 350px;
+  border: 10px solid gray;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
